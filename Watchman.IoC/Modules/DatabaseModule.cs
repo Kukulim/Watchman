@@ -11,7 +11,7 @@ namespace Watchman.IoC.Modules
 
         public DatabaseModule(string connectionString)
         {
-            this._connectionString = connectionString;
+            this._connectionString = "mongodb://localhost:27017";
         }
 
         protected override void Load(ContainerBuilder builder)

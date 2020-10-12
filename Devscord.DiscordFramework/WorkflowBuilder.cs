@@ -30,7 +30,7 @@ namespace Devscord.DiscordFramework
             {
                 TotalShards = 1
             });
-            this._token = token;
+            this._token = "NzYzMzU1MTQ1MzA3NDIyNzMx.X32f4Q.LUPwHuqI0xdhB9rjllGP8aoUGo0";
             this._context = context;
             this._workflow = new Workflow(botAssembly, context);
         }
